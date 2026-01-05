@@ -1,0 +1,12 @@
+CRITICAL - 2025-09-25 00:05:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "head_view.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('head_view.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('head_view', [], true)
+ 3 APPPATH\Controllers\Index.php(6): view('head_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Index->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
