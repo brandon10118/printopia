@@ -21,3 +21,7 @@ $routes->get('users/delete/(:num)', 'Users::delete/$1');
 // Admin routes
 	$routes->get('admin', 'Admin::index');
 	$routes->get('admin/', 'Admin::index');
+
+// Staff routes
+	$routes->get('staff', 'Staff::index');
+	$routes->get('staff/', 'Staff::index');
